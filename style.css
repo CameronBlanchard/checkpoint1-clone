@@ -1,0 +1,54 @@
+:root{
+  --bg-green: #07AB80;
+  --text-gray: #8F8E98;
+}
+
+.bg-green{
+  background-color: var(--bg-green);
+}
+.text-green{
+  color: var(--bg-green);
+}
+
+.text-gray{
+  color: var(--text-gray);
+}
+
+.left-border{
+  border-left: 8px solid var(--bg-green);
+  
+}
+
+.footer-font{
+  font-family: 'Oswald', sans-serif;
+}
+
+.bg-img{
+  background-image: url(assets/header-bg.jpg);
+  background-size: cover;
+}
+
+.shadow{
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.move-box{
+  position: absolute;
+  top: 80px;
+  right: 75px;  
+}
+
+.move-box1{
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .hide{
+    display: none;
+  }
+}
+@media  screen and (max-width: 992px) {
+  .move-box{
+    position: relative;
+  }
+}
